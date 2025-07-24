@@ -4,16 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <header>
+      <header class="header">
+        <nav class="navbar container flex">
+            <a href="#" class="logo">
+                <img src="assets/logo.png" alt="logo of website">
+            </a>
+            <ul class="flex inter-normal hidden-in-576px">
+                <li><a href="#" class="first-child-of-achor menu">Home</a></li>
+                <li><a href="#" class="menu">Shop</a></li>
+                <li><a href="#" class="menu">About Us</a></li>
+                <li><a href="#" class="menu"><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a></li>
+            </ul>
+            <li class="list hidden visible"><a href="#" class="menu anchor cart-on-mobile inter-normal"><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a></li>            
+        </nav>
+        <section class="banner container flex">
+            <div class="left-side-of-banner">
+                <h1 class="hero-title noto-serif-normal">
+                    ALWAYS <span class="separate-color">FRESH</span> <br> <span class="separate-color">FLOWERS</span>
+                </h1>
+                <p class="hero-info">
+                    Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. 
+                </p>
+            </div>
+            <img src="assets/hero-flower.png" alt="picture of flowers for hero section" class="right-side-of-banner">
+        </section>
 
     </header>
     <main>
 
     </main>
     <footer>
-        
+
     </footer>
 </body>
 </html>

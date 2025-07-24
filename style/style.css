@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* fonts */
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* theme */
+:root {
+    --primary-c: #E95A08;
+    --solid-black-c: #000000;
+    --solid-black-50: #8987A1;
+}
+
+/* layout */
+html {
+    font-size: 10px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+.text-center {
+    text-align: center;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* reusable */
+.anchor {
+    text-decoration: none;
+    color: var(--solid-black-50)
+}
+
+.hidden {
+    display: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.primary-btn {
+    padding: 19px 80px;
+    background-color: var(--primary-c);
+    border: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+/* started styling to code for this website */
+/* header section */
+
+/* styling code for navbar */
+.header {
+    margin-bottom: 120px;
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 120px; */
+    min-height: 20vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar ul {
+    gap: 48px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
