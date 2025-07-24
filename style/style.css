@@ -110,3 +110,79 @@ body {
 .navbar ul li {
     list-style: none;
 }
+.menu {
+    text-decoration: none;
+    /* color: #8987A1; */
+    color: var(--solid-black-50);
+    font-size: 1.6rem;
+}
+
+.navbar ul li:first-child a {
+    font-weight: bold;
+    color: var(--solid-black-c)
+}
+
+.navbar ul li:last-child a {
+    color: var(--solid-black-c);
+}
+
+/* styling code for hero section */
+.banner {
+    justify-content: space-between;
+    align-items: end;
+    min-height: 60vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-title {
+    font-size: 6.5rem;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+
+.separate-color {
+    color: var(--primary-c);
+}
+
+.hero-info {
+    font-size: 2.2rem;
+    color: var(--solid-black-50);
+}
+
+/* styling code for our plants section */
+.our-plants {
+    width: 85rem;
+    margin-bottom: 5rem;
+}
+
+.plants-title {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.plants-info {
+    font-size: 2.2rem;
+    color: var(--solid-black-50);
+}
+
+/* styling code for product section */
+.product-blocks {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem 2rem;
+    margin-bottom: 21rem;
+}
+
+.product-img {
+    width: 100%;
+}
+
+.product-title {
+    font-size: 2.2rem;
+    margin: 3rem 0 2.5rem 0;
+}
+
+.price {
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+}
