@@ -221,3 +221,169 @@ body {
   100% {transform: rotate(360deg);}
   
 }
+.collage-section {
+    width: 100%;
+    min-height: 45rem;
+    gap: 2.5rem 2.8rem;
+    margin-bottom: 12rem;
+    grid-template-areas: "bloom zabo zabo"
+                         "ana zabo zabo";
+}
+
+.img1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/deal-bloom.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-area: bloom;
+    border-radius: 14px;
+}
+
+.mid-div {
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000040;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    /* opacity: .5; */
+}
+
+.img2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/deal-ana.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-area: ana;
+    border-radius: 14px;
+}
+.img3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/deal-zabo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-area: zabo;
+    border-radius: 14px;
+}
+
+.discount-text1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.discount-text2 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+}
+
+.collage-btn1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+}
+
+.collage-btn2 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+}
+.newsletter-sec {
+    height: 100vh;
+    background-image: url('../assets/news-letter-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-title {
+    font-size: 5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 2.3rem;
+}
+
+.newsletter-input {
+    padding: 1.5rem 2rem;
+    width: 40vw;
+    outline: none;
+    border: none;
+}
+
+.sub-btn {
+    padding: 1.5rem 5rem;
+    outline: none;
+    border: none;
+    margin-left: -2px;
+    background-color: var(--primary-c);
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+/* started styling on footer section */
+.footer-sec {
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.footer-logo {
+    width: 30rem;
+}
+
+.footer-logo img {
+    margin-bottom: 1.6rem;
+}
+
+.footer-info {
+    font-size: 2.2rem;
+    color: var(--solid-black-50)
+}
+
+.menu-1 ul li {
+    list-style: none;
+}
+
+.menu-1 ul .lists {
+    margin-bottom: 3.2rem;
+}
+
+.menu-1 ul li a {
+    text-decoration: none;
+    color: var(--solid-black-50);
+    font-size: 1.6rem;
+}
+
+.social-icons {
+    margin-left: 2.4rem;
+}
+
+.no-margin {
+    margin-left: 0;
+}
