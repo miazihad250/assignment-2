@@ -165,7 +165,12 @@ body {
     font-size: 2.2rem;
     color: var(--solid-black-50);
 }
-
+.loving-section {
+    align-items: center;
+    gap: 6rem;
+    position: relative;
+    margin-bottom: 13rem;
+}
 /* styling code for product section */
 .product-blocks {
     grid-template-columns: repeat(4, 1fr);
@@ -185,4 +190,21 @@ body {
 .price {
     font-size: 2.2rem;
     margin-bottom: 3rem;
+}
+
+.loving-title {
+    font-size: 5rem;
+    font-weight: bold;
+    color: var(--solid-black-c);
+    margin-bottom: 2rem;
+}
+
+.point-holder {
+    margin-left: 4rem;
+}
+
+.points {
+    font-size: 2.2rem;
+    color: var(--solid-black-50);
+    margin-bottom: 2rem;
 }
