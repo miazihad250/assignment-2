@@ -208,3 +208,16 @@ body {
     color: var(--solid-black-50);
     margin-bottom: 2rem;
 }
+.trusted-badge {
+    width: 286px;
+    position: absolute;
+    left: 348px;
+    top: -123px;
+    animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+	0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+  
+}
